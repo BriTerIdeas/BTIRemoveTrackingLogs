@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3640088817EF5AF0003F6597 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3640088717EF5AF0003F6597 /* Automator.framework */; };
+		3640088A17EF5AF0003F6597 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3640088917EF5AF0003F6597 /* Cocoa.framework */; };
+		3640089417EF5AF0003F6597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3640089217EF5AF0003F6597 /* InfoPlist.strings */; };
+		3640089717EF5AF0003F6597 /* BTIRemoveTrackingLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3640089617EF5AF0003F6597 /* BTIRemoveTrackingLogs.m */; };
+		3640089A17EF5AF0003F6597 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3640089817EF5AF0003F6597 /* main.xib */; };
+		364008A617EF5BAD003F6597 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3640088917EF5AF0003F6597 /* Cocoa.framework */; };
+		364008AC17EF5BAD003F6597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 364008AA17EF5BAD003F6597 /* InfoPlist.strings */; };
+		364008AE17EF5BAD003F6597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008AD17EF5BAD003F6597 /* main.m */; };
+		364008B217EF5BAD003F6597 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 364008B017EF5BAD003F6597 /* Credits.rtf */; };
+		364008B517EF5BAD003F6597 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008B417EF5BAD003F6597 /* BTIAppDelegate.m */; };
+		364008B817EF5BAD003F6597 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364008B617EF5BAD003F6597 /* MainMenu.xib */; };
+		364008BA17EF5BAD003F6597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364008B917EF5BAD003F6597 /* Images.xcassets */; };
+		364008C117EF5BAD003F6597 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364008C017EF5BAD003F6597 /* XCTest.framework */; };
+		364008C217EF5BAD003F6597 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3640088917EF5AF0003F6597 /* Cocoa.framework */; };
+		364008CA17EF5BAD003F6597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 364008C817EF5BAD003F6597 /* InfoPlist.strings */; };
+		364008CC17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008CB17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m */; };
+		364008D617EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
+		364008D717EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
+		364008D817EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
+		364008DC17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
+		364008DD17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
+		364008DE17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
+		364008E017EF997B003F6597 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364008DF17EF997B003F6597 /* livetest.txt */; };
+		364008E117EF997B003F6597 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364008DF17EF997B003F6597 /* livetest.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364008C317EF5BAD003F6597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3640087B17EF5AEF003F6597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364008A417EF5BAD003F6597;
+			remoteInfo = BTITestRemoveTrackingLogs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3640088417EF5AEF003F6597 /* BTIRemoveTrackingLogs.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTIRemoveTrackingLogs.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		3640088717EF5AF0003F6597 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		3640088917EF5AF0003F6597 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3640088C17EF5AF0003F6597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3640088D17EF5AF0003F6597 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3640088E17EF5AF0003F6597 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3640089117EF5AF0003F6597 /* BTIRemoveTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTIRemoveTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		3640089317EF5AF0003F6597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3640089517EF5AF0003F6597 /* BTIRemoveTrackingLogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTIRemoveTrackingLogs.h; sourceTree = "<group>"; };
+		3640089617EF5AF0003F6597 /* BTIRemoveTrackingLogs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTIRemoveTrackingLogs.m; sourceTree = "<group>"; };
+		3640089917EF5AF0003F6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		3640089B17EF5AF0003F6597 /* BTIRemoveTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTIRemoveTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		364008A517EF5BAD003F6597 /* BTITestRemoveTrackingLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTITestRemoveTrackingLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364008A917EF5BAD003F6597 /* BTITestRemoveTrackingLogs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestRemoveTrackingLogs-Info.plist"; sourceTree = "<group>"; };
+		364008AB17EF5BAD003F6597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		364008AD17EF5BAD003F6597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364008AF17EF5BAD003F6597 /* BTITestRemoveTrackingLogs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTITestRemoveTrackingLogs-Prefix.pch"; sourceTree = "<group>"; };
+		364008B117EF5BAD003F6597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		364008B317EF5BAD003F6597 /* BTIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTIAppDelegate.h; sourceTree = "<group>"; };
+		364008B417EF5BAD003F6597 /* BTIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
+		364008B717EF5BAD003F6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		364008B917EF5BAD003F6597 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		364008BF17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTITestRemoveTrackingLogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364008C017EF5BAD003F6597 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		364008C717EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTITestRemoveTrackingLogsTests-Info.plist"; sourceTree = "<group>"; };
+		364008C917EF5BAD003F6597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		364008CB17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTITestRemoveTrackingLogsTests.m; sourceTree = "<group>"; };
+		364008D417EF5C48003F6597 /* BTIStringProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIStringProcessor.h; sourceTree = "<group>"; };
+		364008D517EF5C48003F6597 /* BTIStringProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIStringProcessor.m; sourceTree = "<group>"; };
+		364008DA17EF5D21003F6597 /* NSString+BTIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BTIAdditions.h"; sourceTree = "<group>"; };
+		364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BTIAdditions.m"; sourceTree = "<group>"; };
+		364008DF17EF997B003F6597 /* livetest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = livetest.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3640088017EF5AEF003F6597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3640088A17EF5AF0003F6597 /* Cocoa.framework in Frameworks */,
+				3640088817EF5AF0003F6597 /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008A217EF5BAD003F6597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008A617EF5BAD003F6597 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008BC17EF5BAD003F6597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008C217EF5BAD003F6597 /* Cocoa.framework in Frameworks */,
+				364008C117EF5BAD003F6597 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3640087A17EF5AEF003F6597 = {
+			isa = PBXGroup;
+			children = (
+				364008D317EF5C05003F6597 /* Models */,
+				364008D917EF5D14003F6597 /* Categories */,
+				3640088F17EF5AF0003F6597 /* BTIRemoveTrackingLogs Automator Action */,
+				364008A717EF5BAD003F6597 /* BTITestRemoveTrackingLogs */,
+				364008C517EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests */,
+				3640088617EF5AEF003F6597 /* Frameworks */,
+				3640088517EF5AEF003F6597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3640088517EF5AEF003F6597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3640088417EF5AEF003F6597 /* BTIRemoveTrackingLogs.action */,
+				364008A517EF5BAD003F6597 /* BTITestRemoveTrackingLogs.app */,
+				364008BF17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3640088617EF5AEF003F6597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3640088717EF5AF0003F6597 /* Automator.framework */,
+				3640088917EF5AF0003F6597 /* Cocoa.framework */,
+				364008C017EF5BAD003F6597 /* XCTest.framework */,
+				3640088B17EF5AF0003F6597 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3640088B17EF5AF0003F6597 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3640088C17EF5AF0003F6597 /* Foundation.framework */,
+				3640088D17EF5AF0003F6597 /* CoreData.framework */,
+				3640088E17EF5AF0003F6597 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3640088F17EF5AF0003F6597 /* BTIRemoveTrackingLogs Automator Action */ = {
+			isa = PBXGroup;
+			children = (
+				3640089517EF5AF0003F6597 /* BTIRemoveTrackingLogs.h */,
+				3640089617EF5AF0003F6597 /* BTIRemoveTrackingLogs.m */,
+				3640089817EF5AF0003F6597 /* main.xib */,
+				3640089017EF5AF0003F6597 /* Supporting Files */,
+			);
+			name = "BTIRemoveTrackingLogs Automator Action";
+			path = BTIRemoveTrackingLogs;
+			sourceTree = "<group>";
+		};
+		3640089017EF5AF0003F6597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3640089117EF5AF0003F6597 /* BTIRemoveTrackingLogs-Info.plist */,
+				3640089217EF5AF0003F6597 /* InfoPlist.strings */,
+				3640089B17EF5AF0003F6597 /* BTIRemoveTrackingLogs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364008A717EF5BAD003F6597 /* BTITestRemoveTrackingLogs */ = {
+			isa = PBXGroup;
+			children = (
+				364008B317EF5BAD003F6597 /* BTIAppDelegate.h */,
+				364008B417EF5BAD003F6597 /* BTIAppDelegate.m */,
+				364008DF17EF997B003F6597 /* livetest.txt */,
+				364008B617EF5BAD003F6597 /* MainMenu.xib */,
+				364008B917EF5BAD003F6597 /* Images.xcassets */,
+				364008A817EF5BAD003F6597 /* Supporting Files */,
+			);
+			path = BTITestRemoveTrackingLogs;
+			sourceTree = "<group>";
+		};
+		364008A817EF5BAD003F6597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364008A917EF5BAD003F6597 /* BTITestRemoveTrackingLogs-Info.plist */,
+				364008AA17EF5BAD003F6597 /* InfoPlist.strings */,
+				364008AD17EF5BAD003F6597 /* main.m */,
+				364008AF17EF5BAD003F6597 /* BTITestRemoveTrackingLogs-Prefix.pch */,
+				364008B017EF5BAD003F6597 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364008C517EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				364008CB17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m */,
+				364008C617EF5BAD003F6597 /* Supporting Files */,
+			);
+			path = BTITestRemoveTrackingLogsTests;
+			sourceTree = "<group>";
+		};
+		364008C617EF5BAD003F6597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364008C717EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests-Info.plist */,
+				364008C817EF5BAD003F6597 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364008D317EF5C05003F6597 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				364008D417EF5C48003F6597 /* BTIStringProcessor.h */,
+				364008D517EF5C48003F6597 /* BTIStringProcessor.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		364008D917EF5D14003F6597 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				364008DA17EF5D21003F6597 /* NSString+BTIAdditions.h */,
+				364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3640088317EF5AEF003F6597 /* BTIRemoveTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3640089E17EF5AF0003F6597 /* Build configuration list for PBXNativeTarget "BTIRemoveTrackingLogs" */;
+			buildPhases = (
+				3640087F17EF5AEF003F6597 /* Sources */,
+				3640088017EF5AEF003F6597 /* Frameworks */,
+				3640088117EF5AEF003F6597 /* Resources */,
+				3640088217EF5AEF003F6597 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTIRemoveTrackingLogs;
+			productName = BTIRemoveTrackingLogs;
+			productReference = 3640088417EF5AEF003F6597 /* BTIRemoveTrackingLogs.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		364008A417EF5BAD003F6597 /* BTITestRemoveTrackingLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364008CD17EF5BAD003F6597 /* Build configuration list for PBXNativeTarget "BTITestRemoveTrackingLogs" */;
+			buildPhases = (
+				364008A117EF5BAD003F6597 /* Sources */,
+				364008A217EF5BAD003F6597 /* Frameworks */,
+				364008A317EF5BAD003F6597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTITestRemoveTrackingLogs;
+			productName = BTITestRemoveTrackingLogs;
+			productReference = 364008A517EF5BAD003F6597 /* BTITestRemoveTrackingLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364008BE17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364008D017EF5BAD003F6597 /* Build configuration list for PBXNativeTarget "BTITestRemoveTrackingLogsTests" */;
+			buildPhases = (
+				364008BB17EF5BAD003F6597 /* Sources */,
+				364008BC17EF5BAD003F6597 /* Frameworks */,
+				364008BD17EF5BAD003F6597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364008C417EF5BAD003F6597 /* PBXTargetDependency */,
+			);
+			name = BTITestRemoveTrackingLogsTests;
+			productName = BTITestRemoveTrackingLogsTests;
+			productReference = 364008BF17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3640087B17EF5AEF003F6597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "BriTer Ideas LLC";
+				TargetAttributes = {
+					364008BE17EF5BAD003F6597 = {
+						TestTargetID = 364008A417EF5BAD003F6597;
+					};
+				};
+			};
+			buildConfigurationList = 3640087E17EF5AEF003F6597 /* Build configuration list for PBXProject "BTIRemoveTrackingLogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3640087A17EF5AEF003F6597;
+			productRefGroup = 3640088517EF5AEF003F6597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3640088317EF5AEF003F6597 /* BTIRemoveTrackingLogs */,
+				364008A417EF5BAD003F6597 /* BTITestRemoveTrackingLogs */,
+				364008BE17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3640088117EF5AEF003F6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3640089A17EF5AF0003F6597 /* main.xib in Resources */,
+				3640089417EF5AF0003F6597 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008A317EF5BAD003F6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008AC17EF5BAD003F6597 /* InfoPlist.strings in Resources */,
+				364008E017EF997B003F6597 /* livetest.txt in Resources */,
+				364008BA17EF5BAD003F6597 /* Images.xcassets in Resources */,
+				364008B217EF5BAD003F6597 /* Credits.rtf in Resources */,
+				364008B817EF5BAD003F6597 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008BD17EF5BAD003F6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008E117EF997B003F6597 /* livetest.txt in Resources */,
+				364008CA17EF5BAD003F6597 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3640088217EF5AEF003F6597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3640087F17EF5AEF003F6597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3640089717EF5AF0003F6597 /* BTIRemoveTrackingLogs.m in Sources */,
+				364008D617EF5C48003F6597 /* BTIStringProcessor.m in Sources */,
+				364008DC17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008A117EF5BAD003F6597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008B517EF5BAD003F6597 /* BTIAppDelegate.m in Sources */,
+				364008D717EF5C48003F6597 /* BTIStringProcessor.m in Sources */,
+				364008AE17EF5BAD003F6597 /* main.m in Sources */,
+				364008DD17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364008BB17EF5BAD003F6597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364008CC17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m in Sources */,
+				364008D817EF5C48003F6597 /* BTIStringProcessor.m in Sources */,
+				364008DE17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364008C417EF5BAD003F6597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364008A417EF5BAD003F6597 /* BTITestRemoveTrackingLogs */;
+			targetProxy = 364008C317EF5BAD003F6597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3640089217EF5AF0003F6597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3640089317EF5AF0003F6597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3640089817EF5AF0003F6597 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3640089917EF5AF0003F6597 /* Base */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+		364008AA17EF5BAD003F6597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364008AB17EF5BAD003F6597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		364008B017EF5BAD003F6597 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364008B117EF5BAD003F6597 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		364008B617EF5BAD003F6597 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364008B717EF5BAD003F6597 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		364008C817EF5BAD003F6597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364008C917EF5BAD003F6597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3640089C17EF5AF0003F6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3640089D17EF5AF0003F6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3640089F17EF5AF0003F6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTIRemoveTrackingLogs/BTIRemoveTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTIRemoveTrackingLogs/BTIRemoveTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		364008A017EF5AF0003F6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTIRemoveTrackingLogs/BTIRemoveTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTIRemoveTrackingLogs/BTIRemoveTrackingLogs-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		364008CE17EF5BAD003F6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		364008CF17EF5BAD003F6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		364008D117EF5BAD003F6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestRemoveTrackingLogs.app/Contents/MacOS/BTITestRemoveTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTITestRemoveTrackingLogsTests/BTITestRemoveTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		364008D217EF5BAD003F6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTITestRemoveTrackingLogs.app/Contents/MacOS/BTITestRemoveTrackingLogs";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTITestRemoveTrackingLogs/BTITestRemoveTrackingLogs-Prefix.pch";
+				INFOPLIST_FILE = "BTITestRemoveTrackingLogsTests/BTITestRemoveTrackingLogsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3640087E17EF5AEF003F6597 /* Build configuration list for PBXProject "BTIRemoveTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3640089C17EF5AF0003F6597 /* Debug */,
+				3640089D17EF5AF0003F6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3640089E17EF5AF0003F6597 /* Build configuration list for PBXNativeTarget "BTIRemoveTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3640089F17EF5AF0003F6597 /* Debug */,
+				364008A017EF5AF0003F6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364008CD17EF5BAD003F6597 /* Build configuration list for PBXNativeTarget "BTITestRemoveTrackingLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364008CE17EF5BAD003F6597 /* Debug */,
+				364008CF17EF5BAD003F6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364008D017EF5BAD003F6597 /* Build configuration list for PBXNativeTarget "BTITestRemoveTrackingLogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364008D117EF5BAD003F6597 /* Debug */,
+				364008D217EF5BAD003F6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3640087B17EF5AEF003F6597 /* Project object */;
+}
