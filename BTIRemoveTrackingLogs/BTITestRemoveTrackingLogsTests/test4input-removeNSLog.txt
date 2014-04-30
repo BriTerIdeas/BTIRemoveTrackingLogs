@@ -1,0 +1,6 @@
+{
+// Leave me alone
+    //NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
+// Still here
+//    NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
+}

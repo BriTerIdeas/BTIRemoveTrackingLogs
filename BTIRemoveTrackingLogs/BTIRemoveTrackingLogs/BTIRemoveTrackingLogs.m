@@ -8,13 +8,22 @@
 
 #import "BTIRemoveTrackingLogs.h"
 
+#import "BTIStringProcessor.h"
+
 @implementation BTIRemoveTrackingLogs
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo
 {
-	// Add your code here, returning the data to be passed to the next action.
+	NSString *inputString = (NSString *)[input objectAtIndex:0];
 	
-	return input;
+	if (![inputString isKindOfClass:[NSString class]])
+	{
+		return input;
+	}
+	
+	BTIStringProcessor *processor = [[BTIStringProcessor alloc] initWithInputString:inputString];
+	
+	return [processor outputString];
 }
 
 @end

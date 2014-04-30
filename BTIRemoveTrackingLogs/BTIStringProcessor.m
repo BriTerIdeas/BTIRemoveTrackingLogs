@@ -36,77 +36,64 @@
 
 - (NSString *)outputString
 {
-	NSLog(@">>> Entering <%p> %s <<<", self, __PRETTY_FUNCTION__);
-
-    NSSet *enteringLogPrefixes = [NSSet setWithObjects:@"NSLog(@\">>> Entering <%p> %s <<<", @"BTITrackingLog(@\">>> Entering <%p> %s <<<", @"NSLog(@\">>> Entering %s <<<", nil];
-    NSSet *leavingLogPrefixes = [NSSet setWithObjects:@"NSLog(@\"<<< Leaving  <%p> %s >>>", @"BTITrackingLog(@\"<<< Leaving  <%p> %s >>>", @"NSLog(@\"<<< Leaving %s >>>", nil];
-
     NSString *inputString = [self originalString];
 
     __block NSMutableIndexSet *indexesToRemove = [NSMutableIndexSet indexSet];
 
     NSArray *originalLines = [inputString componentsSeparatedByString:@"\n"];
+    
+    NSUInteger maxIndex = [originalLines count] - 1;
 
     [originalLines enumerateObjectsUsingBlock:^(NSString *line, NSUInteger index, BOOL *stop) {
 
-        NSString *cleanLine = [line stringByRemovingLeadingWhitespaceBTI];
-
-        BOOL hasEnteringPrefix = NO;
-        for (NSString *prefix in enteringLogPrefixes)
+        BOOL isTrackingLogLine = [self isATrackingLogLine:line];
+        
+        if (!isTrackingLogLine)
         {
-            if ([cleanLine hasPrefix:prefix])
-            {
-                hasEnteringPrefix = YES;
-                break;
-            }
+            return;
         }
+        
+        [indexesToRemove addIndex:index];
 
-        BOOL hasLeavingPrefix = NO;
-        if (!hasEnteringPrefix)
+        // Determine if leading or following blank lines need to be removed.
+        
+        if ([self isAnEnteringLine:line])
         {
-            for (NSString *prefix in leavingLogPrefixes)
+            NSUInteger nextIndex = index + 1;
+            if (nextIndex > maxIndex)
             {
-                if ([cleanLine hasPrefix:prefix])
-                {
-                    hasLeavingPrefix = YES;
-                    break;
-                }
+                return;
             }
-        }
-
-        NSInteger nextIndex = NSNotFound;
-
-        if (hasEnteringPrefix)
-        {
-            [indexesToRemove addIndex:index];
-
-            NSInteger checkIndex = index + 1;
-            if (checkIndex < [originalLines count])
-            {
-                nextIndex = checkIndex;
-            }
-        }
-        else if (hasLeavingPrefix)
-        {
-            [indexesToRemove addIndex:index];
-
-            NSInteger checkIndex = index - 1;
-            if (checkIndex >= 0)
-            {
-                nextIndex = checkIndex;
-            }
-        }
-
-        if (nextIndex != NSNotFound)
-        {
+            
             NSString *nextLine = [originalLines objectAtIndex:nextIndex];
-            NSString *nextCleanLine = [nextLine stringByRemovingLeadingWhitespaceBTI];
-
-            if ([nextCleanLine length] == 0)
+            
+            if ([self isABlankLine:nextLine])
             {
                 [indexesToRemove addIndex:nextIndex];
             }
+            
+            return;
         }
+        
+        if ([self isALeavingLine:line])
+        {
+            if (index == 0)
+            {
+                return;
+            }
+            
+            NSUInteger previousIndex = index - 1;
+            
+            NSString *previousLine = [originalLines objectAtIndex:previousIndex];
+            
+            if ([self isABlankLine:previousLine])
+            {
+                [indexesToRemove addIndex:previousIndex];
+            }
+            
+            return;
+        }
+        
     }];
 
     NSMutableArray *cleanedLines = [NSMutableArray arrayWithArray:originalLines];
@@ -114,8 +101,55 @@
 
     NSString *outputString = [cleanedLines componentsJoinedByString:@"\n"];
 
-	NSLog(@"<<< Leaving  <%p> %s >>>", self, __PRETTY_FUNCTION__);
     return outputString;
 }
+
+- (BOOL)isATrackingLogLine:(NSString *)line
+{
+    if ([line rangeOfString:@"BTITrackingLog"].location != NSNotFound)
+    {
+        return YES;
+    }
+    
+    if ([line rangeOfString:@"NSLog"].location == NSNotFound)
+    {
+        return NO;
+    }
+    
+    if ([self isAnEnteringLine:line] || [self isALeavingLine:line])
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (BOOL)isAnEnteringLine:(NSString *)line
+{
+    if ([line rangeOfString:@">>> Entering"].location != NSNotFound)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (BOOL)isALeavingLine:(NSString *)line
+{
+    if ([line rangeOfString:@"<<< Leaving"].location != NSNotFound)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (BOOL)isABlankLine:(NSString *)line
+{
+    NSString *cleanString = [line stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    
+    return ([cleanString length] == 0);
+}
+
 
 @end

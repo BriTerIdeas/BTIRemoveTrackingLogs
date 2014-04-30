@@ -24,13 +24,31 @@
 		364008CA17EF5BAD003F6597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 364008C817EF5BAD003F6597 /* InfoPlist.strings */; };
 		364008CC17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008CB17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m */; };
 		364008D617EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
-		364008D717EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
-		364008D817EF5C48003F6597 /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
 		364008DC17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
-		364008DD17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
-		364008DE17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
 		364008E017EF997B003F6597 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364008DF17EF997B003F6597 /* livetest.txt */; };
 		364008E117EF997B003F6597 /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364008DF17EF997B003F6597 /* livetest.txt */; };
+		364C40C41911780F004B6D0A /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008D517EF5C48003F6597 /* BTIStringProcessor.m */; };
+		364C40C51911780F004B6D0A /* NSString+BTIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */; };
+		364C40C61911783D004B6D0A /* test1input-removeBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A0981B19117667009B5453 /* test1input-removeBTIlog.txt */; };
+		364C40C719117840004B6D0A /* test1output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A0981D191176AC009B5453 /* test1output.txt */; };
+		364C40C9191178AC004B6D0A /* test2input-removeBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40C8191178AC004B6D0A /* test2input-removeBTIlog.txt */; };
+		364C40CA191178AC004B6D0A /* test2input-removeBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40C8191178AC004B6D0A /* test2input-removeBTIlog.txt */; };
+		364C40CC191178B9004B6D0A /* test2output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40CB191178B9004B6D0A /* test2output.txt */; };
+		364C40CD191178B9004B6D0A /* test2output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40CB191178B9004B6D0A /* test2output.txt */; };
+		364C40CF1911793D004B6D0A /* test3input-removeNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40CE1911793D004B6D0A /* test3input-removeNSLog.txt */; };
+		364C40D01911793D004B6D0A /* test3input-removeNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40CE1911793D004B6D0A /* test3input-removeNSLog.txt */; };
+		364C40D21911794B004B6D0A /* test3output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D11911794B004B6D0A /* test3output.txt */; };
+		364C40D31911794B004B6D0A /* test3output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D11911794B004B6D0A /* test3output.txt */; };
+		364C40D5191179C4004B6D0A /* test4input-removeNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D4191179C4004B6D0A /* test4input-removeNSLog.txt */; };
+		364C40D6191179C4004B6D0A /* test4input-removeNSLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D4191179C4004B6D0A /* test4input-removeNSLog.txt */; };
+		364C40D8191179CF004B6D0A /* test4output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D7191179CF004B6D0A /* test4output.txt */; };
+		364C40D9191179CF004B6D0A /* test4output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40D7191179CF004B6D0A /* test4output.txt */; };
+		364C40DB191191E4004B6D0A /* test5input-removeBlankLines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40DA191191E4004B6D0A /* test5input-removeBlankLines.txt */; };
+		364C40DC191191E4004B6D0A /* test5input-removeBlankLines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40DA191191E4004B6D0A /* test5input-removeBlankLines.txt */; };
+		364C40DE19119206004B6D0A /* test5output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40DD19119206004B6D0A /* test5output.txt */; };
+		364C40DF19119206004B6D0A /* test5output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C40DD19119206004B6D0A /* test5output.txt */; };
+		36A0981C19117667009B5453 /* test1input-removeBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A0981B19117667009B5453 /* test1input-removeBTIlog.txt */; };
+		36A0981E191176AC009B5453 /* test1output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A0981D191176AC009B5453 /* test1output.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +94,16 @@
 		364008DA17EF5D21003F6597 /* NSString+BTIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BTIAdditions.h"; sourceTree = "<group>"; };
 		364008DB17EF5D21003F6597 /* NSString+BTIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BTIAdditions.m"; sourceTree = "<group>"; };
 		364008DF17EF997B003F6597 /* livetest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = livetest.txt; sourceTree = "<group>"; };
+		364C40C8191178AC004B6D0A /* test2input-removeBTIlog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test2input-removeBTIlog.txt"; sourceTree = "<group>"; };
+		364C40CB191178B9004B6D0A /* test2output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2output.txt; sourceTree = "<group>"; };
+		364C40CE1911793D004B6D0A /* test3input-removeNSLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test3input-removeNSLog.txt"; sourceTree = "<group>"; };
+		364C40D11911794B004B6D0A /* test3output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3output.txt; sourceTree = "<group>"; };
+		364C40D4191179C4004B6D0A /* test4input-removeNSLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test4input-removeNSLog.txt"; sourceTree = "<group>"; };
+		364C40D7191179CF004B6D0A /* test4output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test4output.txt; sourceTree = "<group>"; };
+		364C40DA191191E4004B6D0A /* test5input-removeBlankLines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test5input-removeBlankLines.txt"; sourceTree = "<group>"; };
+		364C40DD19119206004B6D0A /* test5output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test5output.txt; sourceTree = "<group>"; };
+		36A0981B19117667009B5453 /* test1input-removeBTIlog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test1input-removeBTIlog.txt"; sourceTree = "<group>"; };
+		36A0981D191176AC009B5453 /* test1output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +231,16 @@
 			isa = PBXGroup;
 			children = (
 				364008CB17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m */,
+				36A0981B19117667009B5453 /* test1input-removeBTIlog.txt */,
+				36A0981D191176AC009B5453 /* test1output.txt */,
+				364C40C8191178AC004B6D0A /* test2input-removeBTIlog.txt */,
+				364C40CB191178B9004B6D0A /* test2output.txt */,
+				364C40CE1911793D004B6D0A /* test3input-removeNSLog.txt */,
+				364C40D11911794B004B6D0A /* test3output.txt */,
+				364C40D4191179C4004B6D0A /* test4input-removeNSLog.txt */,
+				364C40D7191179CF004B6D0A /* test4output.txt */,
+				364C40DA191191E4004B6D0A /* test5input-removeBlankLines.txt */,
+				364C40DD19119206004B6D0A /* test5output.txt */,
 				364008C617EF5BAD003F6597 /* Supporting Files */,
 			);
 			path = BTITestRemoveTrackingLogsTests;
@@ -339,11 +377,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364C40CC191178B9004B6D0A /* test2output.txt in Resources */,
+				364C40CF1911793D004B6D0A /* test3input-removeNSLog.txt in Resources */,
+				364C40DB191191E4004B6D0A /* test5input-removeBlankLines.txt in Resources */,
+				364C40C719117840004B6D0A /* test1output.txt in Resources */,
+				364C40C61911783D004B6D0A /* test1input-removeBTIlog.txt in Resources */,
 				364008AC17EF5BAD003F6597 /* InfoPlist.strings in Resources */,
 				364008E017EF997B003F6597 /* livetest.txt in Resources */,
 				364008BA17EF5BAD003F6597 /* Images.xcassets in Resources */,
 				364008B217EF5BAD003F6597 /* Credits.rtf in Resources */,
+				364C40D21911794B004B6D0A /* test3output.txt in Resources */,
+				364C40D8191179CF004B6D0A /* test4output.txt in Resources */,
 				364008B817EF5BAD003F6597 /* MainMenu.xib in Resources */,
+				364C40D5191179C4004B6D0A /* test4input-removeNSLog.txt in Resources */,
+				364C40C9191178AC004B6D0A /* test2input-removeBTIlog.txt in Resources */,
+				364C40DE19119206004B6D0A /* test5output.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +399,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364C40CD191178B9004B6D0A /* test2output.txt in Resources */,
+				364C40D6191179C4004B6D0A /* test4input-removeNSLog.txt in Resources */,
+				364C40D31911794B004B6D0A /* test3output.txt in Resources */,
+				364C40DC191191E4004B6D0A /* test5input-removeBlankLines.txt in Resources */,
+				36A0981C19117667009B5453 /* test1input-removeBTIlog.txt in Resources */,
+				364C40D9191179CF004B6D0A /* test4output.txt in Resources */,
 				364008E117EF997B003F6597 /* livetest.txt in Resources */,
 				364008CA17EF5BAD003F6597 /* InfoPlist.strings in Resources */,
+				364C40CA191178AC004B6D0A /* test2input-removeBTIlog.txt in Resources */,
+				364C40D01911793D004B6D0A /* test3input-removeNSLog.txt in Resources */,
+				36A0981E191176AC009B5453 /* test1output.txt in Resources */,
+				364C40DF19119206004B6D0A /* test5output.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,9 +448,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				364008B517EF5BAD003F6597 /* BTIAppDelegate.m in Sources */,
-				364008D717EF5C48003F6597 /* BTIStringProcessor.m in Sources */,
+				364C40C41911780F004B6D0A /* BTIStringProcessor.m in Sources */,
 				364008AE17EF5BAD003F6597 /* main.m in Sources */,
-				364008DD17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */,
+				364C40C51911780F004B6D0A /* NSString+BTIAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +459,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				364008CC17EF5BAD003F6597 /* BTITestRemoveTrackingLogsTests.m in Sources */,
-				364008D817EF5C48003F6597 /* BTIStringProcessor.m in Sources */,
-				364008DE17EF5D21003F6597 /* NSString+BTIAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
